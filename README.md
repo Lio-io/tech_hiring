@@ -1,6 +1,6 @@
 # Take Home assignment
 
-##Problem Statement -
+### Problem Statement -
 In the script.py file, create a function transform() that
 1. opens local files from the input/ folder
 2. reads the JSON content of the files
@@ -9,7 +9,7 @@ In the script.py file, create a function transform() that
 
 The function should be able to parallely perform the above operations based on the number of cores present on the device.
 
-##Transformations to be applied -
+### Transformations to be applied -
 
 1. Convert attribute "ts" to "%Y-%m-%d HH:MM:SS UTC" format and store as column "eventTime"
 2. Extract "profile.identity" and create column "identity"
@@ -19,7 +19,7 @@ The function should be able to parallely perform the above operations based on t
 6. Extract "eventProps.templateName" and create column "template"
 7. Store attributes "profile", "deviceInfo", "eventProps" as flattedned strings in columns of their original name
 
-##Expected output schema -
+### Expected output schema -
 
 | Columns | Data type |
 | -- | -- |
